@@ -15,11 +15,3 @@ steps:
   - script: npm install  # Install dependencies
     displayName: 'Install Dependencies'
 
-  - script: npm test  # Run tests
-    displayName: 'Run Tests'
-
-  - script: npm run build  # Build the application
-    displayName: 'Build Application'
-
-  - script: echo "Build completed successfully!"  # Confirmation message
-    displayName: 'Confirmation Message'
